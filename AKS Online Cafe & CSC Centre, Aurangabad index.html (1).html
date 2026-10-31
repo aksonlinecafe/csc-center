@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; form-action 'none'; base-uri 'none'">
+<meta name="description" content="GST, FSSAI, PAN, Voter ID, scholarships, admissions, e-way bill and more. One trusted CSC centre for all your online services.">
+<title>AKS Online Cafe &amp; CSC Centre, Aurangabad – GST, PAN, FSSAI, Scholarships &amp; Online Services</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#fbf8f3;--surface:#fff;--text:#1b2230;--muted:#5c6577;--brand:#0b3d91;--brand-ink:#fff;--accent:#e8731a;--line:#e6e0d6;--soft:#eef3fc}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0f141d;--surface:#171e2b;--text:#eef1f6;--muted:#a3adc0;--brand:#6ea0ff;--brand-ink:#0b1220;--accent:#ff9a4d;--line:#27314a;--soft:#1a2438}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0f141d;--surface:#171e2b;--text:#eef1f6;--muted:#a3adc0;--brand:#6ea0ff;--brand-ink:#0b1220;--accent:#ff9a4d;--line:#27314a;--soft:#1a2438}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari",sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:10}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--surface);border-bottom:1px solid var(--line);z-index:11}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
+.logo{font-weight:800;font-size:1.15rem;color:var(--brand);text-decoration:none}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:18px;align-items:center}
+nav a{color:var(--text);text-decoration:none;font-size:.95rem}
+.btn{display:inline-block;background:var(--brand);color:var(--brand-ink);border:0;border-radius:10px;padding:12px 20px;font:600 1rem inherit;font-family:inherit;cursor:pointer;text-decoration:none}
+.btn.alt{background:transparent;color:var(--brand);border:2px solid var(--brand)}
+.btn:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.hero{padding:56px 0 40px;background:linear-gradient(180deg,var(--soft),var(--bg))}
+.hero h1{font-size:clamp(1.9rem,5vw,3.1rem);line-height:1.15;margin:0 0 14px;max-width:16em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:var(--muted);max-width:36em;margin:0 0 24px;font-size:1.1rem}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.trust{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:28px;color:var(--muted);font-size:.92rem}
+section{padding:48px 0}
+h2{font-size:1.7rem;margin:0 0 8px}
+.sub{color:var(--muted);margin:0 0 24px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.tools input{flex:1 1 240px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--text);font:inherit}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;flex:1 1 100%}
+.chip{white-space:nowrap;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:8px 16px;cursor:pointer;font:inherit;font-size:.92rem}
+.chip[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:6px}
+.card .ic{font-size:1.6rem}
+.card h3{margin:0;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.92rem;flex:1}
+.card button{margin-top:10px;align-self:flex-start;background:none;border:0;color:var(--brand);font:600 .95rem inherit;font-family:inherit;cursor:pointer;padding:4px 0}
+.empty{display:none;text-align:center;color:var(--muted);padding:30px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;counter-reset:s}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;margin-bottom:10px}
+.step h3{margin:0 0 4px;font-size:1.05rem}.step p{margin:0;color:var(--muted);font-size:.92rem}
+.band{background:var(--soft)}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.why div{padding:4px 0}.why b{display:block;margin-bottom:2px}.why span{color:var(--muted);font-size:.93rem}
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+form{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;display:grid;gap:14px}
+label{font-weight:600;font-size:.92rem;display:grid;gap:5px}
+input,select,textarea{padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text);font:inherit;width:100%}
+.err{color:#c62828;font-size:.85rem;font-weight:400;min-height:1em}
+.note{font-size:.82rem;color:var(--muted)}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.info p{margin:0 0 12px}
+.info a{color:var(--brand)}
+footer{border-top:1px solid var(--line);padding:26px 0 30px;color:var(--muted);font-size:.85rem}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:#1faa59;color:#fff;border-radius:999px;padding:13px 20px;font-weight:700;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:12}
+@media(max-width:700px){nav a.hide{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="#top">AKS <span>Online Cafe</span> &amp; CSC Centre</a>
+  <nav><a class="hide" href="#services">Services</a><a class="hide" href="#how">How it works</a><a class="hide" href="#contact">Contact</a><a class="btn" href="#contact">Get Help</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <h1>All your <em>government &amp; business</em> paperwork, done in one place.</h1>
+  <p>GST, PAN, FSSAI, Voter ID, scholarships, admissions, e-way bill and 50+ more online services – fast, affordable and handled by real people.</p>
+  <div class="cta"><a class="btn" href="#services">Browse Services</a><a class="btn alt" href="#contact">Send an Enquiry</a></div>
+  <div class="trust"><span>✔ Your documents stay private</span><span>✔ Clear fees, no hidden charges</span><span>✔ Status updates on WhatsApp</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <h2>Our Services</h2>
+  <p class="sub">Search or pick a category. Tap “Enquire” on any service to start.</p>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search e.g. PAN, GST, scholarship…" aria-label="Search services" maxlength="60" autocomplete="off">
+    <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty">No service found. Please <a href="#contact">contact us</a> – we probably still handle it.</div>
+</div></section>
+
+<section class="band" id="how"><div class="wrap">
+  <h2>How it works</h2>
+  <p class="sub">Simple, transparent and mostly from your phone.</p>
+  <div class="steps">
+    <div class="step"><h3>Tell us what you need</h3><p>Fill the short form or message us on WhatsApp.</p></div>
+    <div class="step"><h3>Share documents</h3><p>We tell you exactly which documents are required.</p></div>
+    <div class="step"><h3>We process it</h3><p>Our team files, applies and tracks everything for you.</p></div>
+    <div class="step"><h3>Get your result</h3><p>Receive acknowledgement, certificate or receipt quickly.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Why choose us</h2><p class="sub">Trusted by students, shopkeepers, farmers and growing businesses.</p>
+  <div class="why">
+    <div><b>🔒 Data safety first</b><span>Documents are used only for your application and deleted on request.</span></div>
+    <div><b>💰 Fair, upfront pricing</b><span>You know the service charge before we begin.</span></div>
+    <div><b>⏱ Quick turnaround</b><span>Most applications are submitted the same day.</span></div>
+    <div><b>🤝 Local support</b><span>Walk in, call or WhatsApp – we speak Hindi, Bhojpuri and English.</span></div>
+  </div>
+</div></section>
+
+<section class="band" id="contact"><div class="wrap contact">
+  <form id="f" novalidate autocomplete="off">
+    <h2 style="margin:0">Send an enquiry</h2>
+    <label>Your name<input id="n" maxlength="60" required autocomplete="name"><span class="err" id="en"></span></label>
+    <label>Mobile number<input id="m" inputmode="numeric" maxlength="10" placeholder="10-digit mobile" required autocomplete="tel"><span class="err" id="em"></span></label>
+    <label>Service needed<select id="s" required></select><span class="err" id="es"></span></label>
+    <label>Message (optional)<textarea id="t" rows="3" maxlength="300"></textarea></label>
+    <div class="hp" aria-hidden="true"><label>Leave empty<input id="hp" tabindex="-1" autocomplete="off"></label></div>
+    <button class="btn" type="submit">Continue on WhatsApp</button>
+    <p class="note">Do not enter Aadhaar, PAN or passwords here. We will ask for documents securely when needed.</p>
+  </form>
+  <div class="info">
+    <h2>Visit or call us</h2>
+    <p><b>Address:</b> AKS Online Cafe and CSC Centre, Lakshman Market, Radiha, Opposite Dev Krity Resort, Near Sinha College More, Aurangabad, Bihar</p>
+    <p><b>Phone / WhatsApp:</b> <a href="tel:+918287671764">+91 82876 71764</a></p>
+    <p><b>Hours:</b> Mon–Sat, 9:30 AM – 7:30 PM</p>
+    <p class="note">Beware of fraud: we never ask for OTPs, UPI PINs or passwords over call or chat.</p>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  © <span id="y"></span> AKS Online Cafe and CSC Centre, Aurangabad. This is a private facilitation centre and is not a government website. Government fees, where applicable, are charged separately at actuals. All names and logos mentioned belong to their respective owners.
+</div></footer>
+
+<a class="wa" id="wa" href="#contact" aria-label="Chat on WhatsApp">💬 WhatsApp</a>
+
+<script>
+(function(){
+"use strict";
+var PHONE="918287671764"; /* WhatsApp number: 91 + 10 digits */
+var CATS=["All","Tax & Business","Identity & Govt","Land & Property","Students","Utilities & Print"];
+var S=[
+["Tax & Business","🧾","GST Registration","New GST number for your business, with documents checked."],
+["Tax & Business","📑","GST Return Filing","Monthly, quarterly and annual GST returns filed on time."],
+["Tax & Business","💻","Income Tax E-Filing","ITR filing for salaried, business and professionals."],
+["Tax & Business","🚚","E-Way Bill","Generate and manage e-way bills for goods movement."],
+["Tax & Business","🏢","Business Registration","Proprietorship, partnership, LLP, company and Udyam."],
+["Tax & Business","🍽️","FSSAI Registration","Food licence and registration for shops, hotels and makers."],
+["Identity & Govt","🪪","PAN Card Apply","New PAN, correction and reprint."],
+["Identity & Govt","🗳️","Voter ID Creation","Apply for a new Voter ID card."],
+["Identity & Govt","📝","Voter Registration","Enrol, shift or correct details in the electoral roll."],
+["Identity & Govt","🍚","Ration Card Apply","New ration card, member add or removal."],
+["Identity & Govt","📋","Online Form Apply","Certificates, schemes and other government forms."],
+["Land & Property","🏞️","Online Mutation","Land mutation (dakhil-kharij) application and tracking."],
+["Land & Property","🌾","Land Rent Payment","Pay land rent (lagaan) online and get the receipt."],
+["Students","🎓","College Admission Forms","Admission forms for all universities and colleges."],
+["Students","🏫","University Forms","Registration, exam and enrolment forms."],
+["Students","💸","Scholarships","PMS, NSP, Tata Pankh and more – apply and track."],
+["Students","💳","Student Credit Card","Apply for the Bihar Student Credit Card scheme."],
+["Utilities & Print","💡","Bill Payment","Electricity, water, gas, mobile and DTH bills."],
+["Utilities & Print","🖨️","Print & Xerox","Printing, scanning, lamination and photo prints."],
+["Utilities & Print","🏪","CSC Centre Services","Banking, insurance, digital seva and other CSC services."]
+];
+var cat="All",$=function(i){return document.getElementById(i)};
+var grid=$("grid"),chips=$("chips"),sel=$("s");
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+CATS.forEach(function(c){var b=el("button","chip",c);b.type="button";b.setAttribute("aria-pressed",c==="All");b.onclick=function(){cat=c;[].forEach.call(chips.children,function(x){x.setAttribute("aria-pressed",x===b)});render()};chips.appendChild(b)});
+sel.appendChild(new Option("Select a service",""));
+S.forEach(function(s){sel.appendChild(new Option(s[2],s[2]))});
+sel.appendChild(new Option("Other / Not sure","Other"));
+function render(){
+  var q=$("q").value.trim().toLowerCase(),n=0;grid.textContent="";
+  S.forEach(function(s){
+    if((cat!=="All"&&s[0]!==cat)||(q&&(s[2]+" "+s[3]).toLowerCase().indexOf(q)<0))return;
+    n++;var c=el("div","card");c.appendChild(el("div","ic",s[1]));c.appendChild(el("h3",0,s[2]));c.appendChild(el("p",0,s[3]));
+    var b=el("button",0,"Enquire →");b.type="button";b.onclick=function(){sel.value=s[2];$("contact").scrollIntoView();$("n").focus()};
+    c.appendChild(b);grid.appendChild(c)});
+  $("empty").style.display=n?"none":"block";
+}
+$("q").addEventListener("input",render);render();
+$("y").textContent=new Date().getFullYear();
+function clean(v){return v.replace(/[<>\u0000-\u001f]/g," ").replace(/\s+/g," ").trim()}
+var t0=Date.now();
+$("m").addEventListener("input",function(){this.value=this.value.replace(/\D/g,"").slice(0,10)});
+$("f").addEventListener("submit",function(e){
+  e.preventDefault();var ok=true;
+  var n=clean($("n").value),m=$("m").value,s=sel.value,t=clean($("t").value);
+  $("en").textContent=n.length<2?(ok=false,"Please enter your name."):"";
+  $("em").textContent=!/^[6-9]\d{9}$/.test(m)?(ok=false,"Enter a valid 10-digit mobile number."):"";
+  $("es").textContent=!s?(ok=false,"Please choose a service."):"";
+  if(/\b\d{4}\s?\d{4}\s?\d{4}\b|[A-Z]{5}\d{4}[A-Z]/i.test(t)){ok=false;alert("Please remove Aadhaar/PAN numbers from the message. We will collect documents securely later.")}
+  if(!ok||$("hp").value||Date.now()-t0<2000)return;
+  var msg="Hello, I am "+n+". Mobile: "+m+". I need help with: "+s+"."+(t?" Note: "+t:"");
+  window.open("https://wa.me/"+PHONE+"?text="+encodeURIComponent(msg),"_blank","noopener,noreferrer");
+});
+$("wa").href="https://wa.me/"+PHONE+"?text="+encodeURIComponent("Hello, I need help with an online service.");
+$("wa").target="_blank";$("wa").rel="noopener noreferrer";
+})();
+</script>
+</body>
+</html>
